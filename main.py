@@ -21,6 +21,8 @@ def main():
 
 # hahaha
 
+#hawk tuah talk tuah skibodididiidi
+
         if choice == "1":
             group = input("Enter group name: ")
             name = input("Enter student name: ")
