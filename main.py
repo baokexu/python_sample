@@ -19,6 +19,8 @@ def main():
         print("9. Exit")
         choice = input("Choose an option: ")
 
+# hahaha
+
         if choice == "1":
             group = input("Enter group name: ")
             name = input("Enter student name: ")
