@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+.idea/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# JSON data and output
+data.json
+*.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
