@@ -47,7 +47,11 @@ def update_score(group, name, subject, new_score):
 
 
 def delete_student(group, name):
-    print('TODO: please provide code to delete student')
+    data = load_data()
+    if group in data:
+        del data[name]
+    print(f"{name} is deleted from the database.")
+    # I DO THIS ONE ABOVE
 
 
 def show_student(group, name):
