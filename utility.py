@@ -43,7 +43,15 @@ def show_scores(group=None):
 
 
 def update_score(group, name, subject, new_score):
-    print('TODO: please provide code to update score')
+    data = load_data()
+    if group in data and name in data[group]:
+        data[group][name]  = new_score
+        save_data(data)
+        print(f"Updated {name} to {subject}.")
+    else:
+        print(f"Group {group} not found.")
+
+    #print('TODO: please provide code to update score')
 
 
 def delete_student(group, name):
