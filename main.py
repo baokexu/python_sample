@@ -17,6 +17,7 @@ def main():
         print("7. Show the score for a student")
         print("8. show the count of  students in a group")
         print("9. Exit")
+        # test
         choice = input("Choose an option: ")
 
 
