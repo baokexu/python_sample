@@ -17,12 +17,13 @@ def main():
         print("7. Show the score for a student")
         print("8. show the count of  students in a group")
         print("9. Exit")
+        # test
         choice = input("Choose an option: ")
 
-# hahaha
 
-#hawk tuah talk tuah skibodididiidi
-
+        #hahaahahha
+#fkjlasd
+        
         if choice == "1":
             group = input("Enter group name: ")
             name = input("Enter student name: ")
