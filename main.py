@@ -20,6 +20,10 @@ def main():
         # test
         choice = input("Choose an option: ")
 
+
+        #hahaahahha
+#fkjlasd
+        
         if choice == "1":
             group = input("Enter group name: ")
             name = input("Enter student name: ")
